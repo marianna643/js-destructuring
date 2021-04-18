@@ -80,3 +80,6 @@ console.log(name, adress);
 function getDetails(name, age) {
   return [`Your name is ${name}`, `You are ${age} years old`];
 }
+
+const [ getName, getAge] = getDetails("Marianna", 32);
+console.log(getName, getAge);
