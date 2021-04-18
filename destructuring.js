@@ -43,6 +43,9 @@ const tvOptions = {
     }
   },
 };
+const { wifi, bluetooth } = tvOptions.options.connectivity.popular
+console.log(wifi, bluetooth);
+
 
 // Opdracht 4: Destructure beide waardes uit onderstaande array, en log ze daarna in de terminal
 
