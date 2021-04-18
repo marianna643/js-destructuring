@@ -20,6 +20,9 @@ const productInformation = {
   screenQuality: 'Ultra HD/4K',
   smartTv: true,
 }
+const { type, brand } = productInformation.general;
+console.log (type, brand);
+
 
 // Opdracht 3: destructure wifi en bluetooth uit onderstaand object, en log ze daarna in de terminal
 
