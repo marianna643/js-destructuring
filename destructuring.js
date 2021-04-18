@@ -71,6 +71,9 @@ function getCompanyDetails() {
     adress: 'Zonnebaan 9, Utrecht',
   }
 }
+const { name, adress } = getCompanyDetails();
+console.log(name, adress);
+
 
 // opdracht 7: Destructure beide zinnetjes uit de return value van de getDetails functie en log ze in de terminal. Let op: de functie verwacht argumenten bij het aanroepen!
 
